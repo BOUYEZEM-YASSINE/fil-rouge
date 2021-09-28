@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.W{
+    font-weight: bolder !important;
+    color: rgb(0, 0, 0) !important;
+}
+.YY1{
+    font-weight: normal !important;
+}
+input[type=text]{
+    width: 40vw;
+    height: auto;
+}
+input[type=email]{
+    width: 40vw;
+    height: auto;
+}
+input[type=password]{
+    width: 40vw;
+    height: auto;
+}

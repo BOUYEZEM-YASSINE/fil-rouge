@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar-custom{
+    background-color: rgba(255, 255, 255, 0) !important;
+    z-index: 20;
+}
+.navbar-collapse .navbar-nav .nav-item{
+    border: white 4px !important;
+}
+.navbar-collapse .navbar-nav li {
+    padding: 5px 10% !important;
+}
+.navbar-collapse .navbar-nav .nav-item a{
+    transition: 0.3s;
+    border: solid white transparent 2px !important;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 5px 10px;
+    /* background-color: rgba(83, 83, 83, 0.555); */
+}
+.navbar-collapse .navbar-nav .nav-item a:hover{
+    color: rgb(0, 0, 0) !important;
+    background-color: rgba(255, 255, 255, 0.692);
+    font-weight: bold;
+}
+#logout:hover{
+    background-color:rgba(23, 163, 184, 0.692);
+}
+#login:hover{
+    background-color:rgba(23, 163, 184, 0.692);
+}
+
+.background-video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+.filter{
+    background: hsla(0, 0%, 16%, 0.486);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+.text-section{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 40%;
+    left: 5%;
+    z-index: 30;
+}
+.CVCMP{
+    color: white;
+    font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+    .CVCMP {
+      font-size: 26px;
+    }
+}
+.buttona{
+    text-decoration: none !important;
+    color: black;
+    transition: 0.3s;
+}
+.buttona:hover{
+    color:white;
+}
+.KYUI{
+    position: relative;
+    top: 0;left: 0;
+}
+.KYUI .trasparent-buttons{
+    padding: 5px;
+}
+
+.PLUS .tona{
+    padding: 0 40px;
+    color: white;
+}

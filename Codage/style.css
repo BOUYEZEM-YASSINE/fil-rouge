@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+li{
+    display: inline-block;
+}
+header{
+    background:linear-gradient(rgba(136, 111, 111, 0.4),rgba(117, 103, 103, 0.4)) ,url("../Images/Authentification_background_image.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.authentification-section .row ul li{
+    padding: 0.73vw 0.73vw;
+    font-weight: bold;
+}
+.authentification-section .row ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 0.73vw;
+    border: solid transparent;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.authentification-section .row ul li a:hover{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255, 0.9);
+    color: black;
+    font-size: 16px;
+}
+.authentification-section .row img{
+    padding: 0.73vw 0.73vw;
+}
+header .container-fluid h5{
+    color: white;
+    font-weight: bold;
+} 
+.text-section{
+    height:200px;
+}
+.trasparent-buttons{
+    padding: 0.60vh 0.60vw !important;
+}
+.trasparent-buttons .btn-outline-primary{
+    font-weight: bold;
+}
+.xx{
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+}
+.svg{
+    margin-top:3px;
+}
+.buttona{
+    text-decoration: none !important;
+    color: black;
+    transition: 0.3s;
+}
+.buttona:hover{
+    color:white;
+}
